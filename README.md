@@ -43,4 +43,7 @@ A repository to learn git.
 - scanpy, scvi: generate embeddings that work for UMAP clustering, showing the improvement on cell-type profiling and removal of batch effects in scRNAseq.
 - A series of metagenomic binners: LorBin and VAMB, generates latent embeddings to cluster microbial genomes.
 
+6. RNA language model
+- CodonFM: NVIDIA-developed RNA language modeller. 
+
 
