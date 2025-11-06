@@ -15,3 +15,5 @@ A repository to learn git.
  - When using such package, install it via conda, and add any other packages or pip installable packages via adding ``pip:`` inside the ``conda_env.yaml``.
 
 - ``Note``: when using conda environment and activating it, the $PATH points to the ``bin/`` directory inside the conda environment, and thus the python version is pointed to there. For example: ``home/path/to/envs/comebin_env/bin/python`` is the python inside your comebin_env in your spartan. When activating it, installation using ``pip`` will add the packages to the ``lib/python/site-packages``. While running mamba or conda will add packages to the conda libs.
+
+3. Our next step is trying to incorporate low-level languages like ``Rust`` and ``C++`` to python, thus trying to do some basic stuffs. A good example is Karpathy's ``nanochat`` repository combining generative models with a rust-encoded tokenizer. 
